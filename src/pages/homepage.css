@@ -1,0 +1,16 @@
+.grid-container {
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      justify-items: center;
+      row-gap: 1em;
+  }

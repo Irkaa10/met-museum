@@ -1,9 +1,15 @@
 import "./objectCard.css"
 
-function ObjectCard() {
+interface objectCardProps {
+    imageUrl: string;
+    objectName: string;
+}
+
+function ObjectCard(props: objectCardProps) {
     return (
         <div className="card">
-            <h1>Object Card</h1>
+            <img src={props.imageUrl} alt=""  className="card-image"/>
+            <h2>{props.objectName}</h2>
         </div>
     )
 }
