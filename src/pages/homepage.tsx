@@ -19,6 +19,7 @@ function Homepage() {
         <div className="grid">
           {objectDetailsQuery.data?.map((object) => (
             <ObjectCard
+              objectID={object.objectID}
               key={object.objectID}
               imageUrl={object.primaryImageSmall}
               objectName={object.title}
