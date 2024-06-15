@@ -1,9 +1,9 @@
-import Menubar from "../components/menubar/menubar";
-import ObjectCard from "../components/objectCard/objectCard";
+import Menubar from "../../components/menubar/menubar";
+import ObjectCard from "../../components/objectCard/objectCard";
 import {
   useHighlightQuery,
   useObjectDetailsQueries,
-} from "../queries/useHighlightQuery";
+} from "../../queries/useHighlightQuery";
 import "./homepage.css";
 
 function Homepage() {
